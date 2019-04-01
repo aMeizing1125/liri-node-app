@@ -11,7 +11,7 @@ var spotify = new Spotify(keys.spotify); //might need to inside spotify()
 //don't forget to do the rest of the requires
 var action = process.argv[2];
 //maybe a forEach loop to iterate through the remainder like process.argv[i]
-var input = process.argv[3];
+var input = process.argv.slice(3).join(" ");
 
 console.log(process.env.SPOTIFY_ID);
 
