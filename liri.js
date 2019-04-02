@@ -89,9 +89,15 @@ function spotifyFunction() {
 
       // console.log(response.tracks.items[0].name);
       allTracks = response.tracks.items;
-      // console.log(allTracks);
+      
       allTracks.forEach(function(thisTrack){
-        console.log(thisTrack.name);
+        line();
+        console.log("Song Name: " + thisTrack.name);
+        console.log("Artist's Name: " +thisTrack.artists[0].name); 
+        console.log("Albumb Name: " + thisTrack.album.name);
+        console.log("Preview URL: " + thisTrack.external_urls.Spotify); //ughh.. it will NOT work damn it.. object object.. argh notation!
+
+        // console.log(allTracks);
       })
     })
     .catch(function (err) {
