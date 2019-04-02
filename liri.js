@@ -109,18 +109,3 @@ function spotifyFunction() {
 function line() {
   console.log("-----------------");
 }
-
-
-//TRASHCAN
-// function bandArtist(){
-//constructor here????
-// }
-
-//below is from w3
-// Constructor function for Person objects
-// function Person(first, last, age, eye) {
-//   this.firstName = first;
-//   this.lastName = last;
-//   this.age = age;
-//   this.eyeColor = eye;
-// }
