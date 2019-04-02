@@ -95,7 +95,7 @@ function spotifyFunction() {
         console.log("Song Name: " + thisTrack.name);
         console.log("Artist's Name: " +thisTrack.artists[0].name); 
         console.log("Albumb Name: " + thisTrack.album.name);
-        console.log("Preview URL: " + thisTrack.external_urls.Spotify); //ughh.. it will NOT work damn it.. object object.. argh notation!
+        console.log("Preview URL: " + thisTrack.external_urls.spotify); //ughh.. it will NOT work damn it.. object object.. argh notation!
 
         // console.log(allTracks);
       })
